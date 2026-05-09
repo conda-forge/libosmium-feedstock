@@ -1,5 +1,5 @@
 context:
-  version: "2.23.0"
+  version: "2.23.1"
 
 package:
   name: libosmium
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/osmcode/libosmium/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 2e7a4ab34a80843490a1d673811d600e5445e6d39a0cfc42609d0861eba24669
+    sha256: eb47d8163396c73870dbf27819dcadda0c56f0191935c4f8659d1e61b261552f
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
